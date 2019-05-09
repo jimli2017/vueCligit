@@ -5,7 +5,7 @@
 		<h2>这是getters中获取到的数据,{{this.$store.getters.getStateCount}}</h2>
 		<button @click="addfun">+</button>
 		<button @click="reductfun">-</button>
-		<h3>{{count1}}</h3>
+		<h3>computed:{{count1}}</h3>
   </div>
 </template>
 
