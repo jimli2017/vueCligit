@@ -52,7 +52,7 @@
 					.catch(function(error) {
 						console.log(error);
 					});
-					sessionStorage.setItem("datas",false)
+					sessionStorage.setItem("datas",true)
 				this.$router.push({name:'index'});
 			}
 		}
